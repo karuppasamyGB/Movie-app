@@ -1,0 +1,83 @@
+   .app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .movies-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .movie-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: #f0f0f0;
+  }
+  
+  .movie-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .skeleton {
+    background: #f0f0f0;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+  }
+  
+  .skeleton-image {
+    background: #e0e0e0;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 10px;
+  }
+  
+  .skeleton-text {
+    background: #e0e0e0;
+    height: 15px;
+    width: 80%;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+  
+  .skeleton-text.title {
+    width: 60%;
+  }
+  
+  .skeleton-text.year,
+  .skeleton-text.type {
+    width: 40%;
+  }
+
+
+  

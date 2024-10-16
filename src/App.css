@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.heading{
+  align-items: center;
+  margin-left: auto;
+  justify-content: center;
+  display: flex;
+  font-size: 2.5rem;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./movie.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  margin-left: -40px;
+  margin-right:  -40px;
+  min-height: 100vh;
+  min-width: 200vh;
+  display: flex;
+  background-size: cover;
+  margin-top: -7vh;
+  margin-bottom: -70px;
+  margin-left: -7vh;
+  margin-right: -7vh;
+  width: 100vw;
+}
+
+.colorful-heading {
+  font-size: 60px;
+  background: #c53110;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center; 
+  margin-bottom: 20px;   
+}
+
+.center-text {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 200px;           
+}
